@@ -3,6 +3,7 @@ Application to parse DirectX files ".x" to data structures in VB6
 
 All coded by Leandro Silva 25/10/2021
 Importer for directx (may need improve for your needs) for VB6 ver.8176
+Essential for 3D objects and collusions with Mesh, VB6 ver.8176
 Essencial para criar objectos 3D ou definir colisões por Mesh
 
 ```
@@ -39,9 +40,9 @@ Frame Mundo { 1
       ..;..;.;..;;
       TextureFilename { 1.2.7 = 10
       "";
-      } //fecha TextureFile
-    } //fecha Materiallist
-    } //fecha Mesh
-  } //fecha Frame Nome
-} //fecha Frame Mundo
+      } //fecha TextureFile; end TextureFile
+    } //fecha Materiallist; end Materiallist
+    } //fecha Mesh; end Mesh
+  } //fecha Frame Nome; end Frame Nome
+} //fecha Frame Mundo; end Frame Mundo
 ```
